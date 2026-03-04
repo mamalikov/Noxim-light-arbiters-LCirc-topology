@@ -8,9 +8,17 @@ This repository is a research fork of **Noxim**, the Network‑on‑Chip simulat
 - several **routing algorithms** for LCirc,
 - automation and analysis scripts for large experimental campaigns.
 
-The original Noxim codebase, build system and license remain unchanged; this fork adds functionality on top of it.
+This fork is based on the original Noxim project:
 
-If you use this fork in your research, please cite the original Noxim papers (see below) and, if possible, reference this extended version as well.
+- GitHub: `https://github.com/davidepatti/noxim`
+
+If you build on this work, please also consider citing the following related publications:
+
+V. Catania, A. Mineo, S. Monteleone, M. Palesi and D. Patti, “Improving the energy efficiency of wireless Network on Chip architectures through online selective buffers and receivers shutdown,” 2016 13th IEEE Annual Consumer Communications & Networking Conference (CCNC), Las Vegas, NV, 2016, pp. 668–673. DOI: [10.1109/CCNC.2016.7444860](https://doi.org/10.1109/CCNC.2016.7444860).
+
+M. Malikov and A. Romanov, “Traffic patterns in networks-on-chip: a survey,” IEEE Access, 2025. DOI: [10.1109/ACCESS.2025.3601971](https://doi.org/10.1109/ACCESS.2025.3601971).
+
+V. Catania, A. Mineo, S. Monteleone, M. Palesi and D. Patti, “Energy efficient transceiver in wireless Network on Chip architectures,” 2016 Design, Automation & Test in Europe Conference & Exhibition (DATE), Dresden, 2016, pp. 1321–1326
 
 
 Overview of Extensions
@@ -172,9 +180,9 @@ After building:
 - Use `run_lcirc_comparison.sh` for LCirc experiments.
 
 
-Upstream Noxim and Citations
-----------------------------
+Other simulators from our group
+-------------------------------
 
-This fork is based on the original Noxim project:
-
-- GitHub: `https://github.com/davidepatti/noxim`
+- `Newxim` – Network-on-Chip simulator with custom topologies: `https://github.com/RomeoMe5/newxim`
+- `UOCNS-SE` – Java web service for NoC simulation and configuration generation: `https://github.com/RomeoMe5/UOCNS-SE`
+- `PGNoCv3` – hardware–software platform for prototyping NoC on FPGAs: `https://github.com/RomeoMe5/PGNoCv3`
