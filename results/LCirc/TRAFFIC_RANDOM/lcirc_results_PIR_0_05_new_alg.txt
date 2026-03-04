@@ -1,0 +1,33 @@
+=========================================
+LCirculant Routing Algorithm: LCIRC
+Traffic Pattern: TRAFFIC_RANDOM
+PIR: 0.05
+Date: Sat Jan 24 15:45:55 MSK 2026
+=========================================
+
+Running LCIRC with PIR=0.05 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+=========================================
+AVERAGED RESULTS (6 runs)
+=========================================
+
+--- LCIRC Algorithm ---
+Total received packets: 12548.666667
+Total received flits: 100405.666667
+Global average delay (cycles): 2501.901667
+Max delay (cycles): 5623.000000
+Network throughput (flits/cycle): 11.156198
+Average IP throughput (flits/cycle/IP): 00.177082
+Total energy (J): 00.000031
+Dynamic energy (J): 00.000002
+Static energy (J): 00.000029
+
+Results saved to: /mnt/c/Users/teddy/Downloads/LCirc_noxim/results/TRAFFIC_RANDOM/lcirc_results_PIR_0_05_new_alg.txt
+

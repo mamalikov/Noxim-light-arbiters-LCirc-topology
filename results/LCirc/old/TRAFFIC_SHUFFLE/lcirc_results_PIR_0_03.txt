@@ -1,0 +1,71 @@
+=========================================
+LCirculant Routing Algorithms Comparison
+Traffic Pattern: TRAFFIC_SHUFFLE
+PIR: 0.03
+Date: Thu Jan 22 17:30:50 MSK 2026
+=========================================
+
+Running LCIRC with PIR=0.03 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+Running LCIRC_DIJKSTRA with PIR=0.03 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+Running LCIRC_SIMPLE with PIR=0.03 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+=========================================
+AVERAGED RESULTS (6 runs per algorithm)
+=========================================
+
+--- LCIRC Algorithm ---
+Total received packets: 14232.833333
+Total received flits: 113842.666667
+Global average delay (cycles): 733.149333
+Max delay (cycles): 6104.833333
+Network throughput (flits/cycle): 12.649200
+Average IP throughput (flits/cycle/IP): 00.200781
+Total energy (J): 00.000031
+Dynamic energy (J): 00.000002
+Static energy (J): 00.000029
+
+--- LCIRC_DIJKSTRA Algorithm ---
+Total received packets: 13568.666667
+Total received flits: 108568.833333
+Global average delay (cycles): 813.789833
+Max delay (cycles): 7052.500000
+Network throughput (flits/cycle): 12.063200
+Average IP throughput (flits/cycle/IP): 00.191479
+Total energy (J): 00.000031
+Dynamic energy (J): 00.000002
+Static energy (J): 00.000029
+
+--- LCIRC_SIMPLE Algorithm ---
+Total received packets: 4777.166667
+Total received flits: 38220.166667
+Global average delay (cycles): 2299.398333
+Max delay (cycles): 9341.000000
+Network throughput (flits/cycle): 4.246687
+Average IP throughput (flits/cycle/IP): 00.067408
+Total energy (J): 00.000030
+Dynamic energy (J): 00.000001
+Static energy (J): 00.000029
+
+Results saved to: /mnt/c/Users/teddy/Downloads/LCirc_noxim/results/TRAFFIC_SHUFFLE/lcirc_results_PIR_0_03.txt
+

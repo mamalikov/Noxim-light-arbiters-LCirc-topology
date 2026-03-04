@@ -1,0 +1,33 @@
+=========================================
+LCirculant Routing Algorithm: LCIRC_SIMPLE
+Traffic Pattern: TRAFFIC_BUTTERFLY
+PIR: 0.09
+Date: Sat Jan 24 16:45:42 MSK 2026
+=========================================
+
+Running LCIRC_SIMPLE with PIR=0.09 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+=========================================
+AVERAGED RESULTS (6 runs)
+=========================================
+
+--- LCIRC_SIMPLE Algorithm ---
+Total received packets: 18782.000000
+Total received flits: 150281.333333
+Global average delay (cycles): 1901.300000
+Max delay (cycles): 9443.833333
+Network throughput (flits/cycle): 16.697917
+Average IP throughput (flits/cycle/IP): 00.265047
+Total energy (J): 00.000030
+Dynamic energy (J): 00.000001
+Static energy (J): 00.000029
+
+Results saved to: /mnt/c/Users/teddy/Downloads/LCirc_noxim/results/TRAFFIC_BUTTERFLY/lcirc_results_PIR_0_09_simple.txt
+

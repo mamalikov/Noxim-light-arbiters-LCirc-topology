@@ -1,0 +1,33 @@
+=========================================
+LCirculant Routing Algorithm: LCIRC_VIRTUALCOORD
+Traffic Pattern: TRAFFIC_BUTTERFLY
+PIR: 0.06
+Date: Sat Jan 24 16:42:11 MSK 2026
+=========================================
+
+Running LCIRC_VIRTUALCOORD with PIR=0.06 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+=========================================
+AVERAGED RESULTS (6 runs)
+=========================================
+
+--- LCIRC_VIRTUALCOORD Algorithm ---
+Total received packets: 22384.166667
+Total received flits: 179049.166667
+Global average delay (cycles): 1024.805167
+Max delay (cycles): 7752.833333
+Network throughput (flits/cycle): 19.894350
+Average IP throughput (flits/cycle/IP): 00.315783
+Total energy (J): 00.000031
+Dynamic energy (J): 00.000002
+Static energy (J): 00.000029
+
+Results saved to: /mnt/c/Users/teddy/Downloads/LCirc_noxim/results/TRAFFIC_BUTTERFLY/lcirc_results_PIR_0_06_virtualcoord.txt
+

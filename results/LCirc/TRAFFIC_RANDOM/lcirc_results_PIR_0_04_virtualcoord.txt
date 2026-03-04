@@ -1,0 +1,33 @@
+=========================================
+LCirculant Routing Algorithm: LCIRC_VIRTUALCOORD
+Traffic Pattern: TRAFFIC_RANDOM
+PIR: 0.04
+Date: Sat Jan 24 15:45:04 MSK 2026
+=========================================
+
+Running LCIRC_VIRTUALCOORD with PIR=0.04 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+=========================================
+AVERAGED RESULTS (6 runs)
+=========================================
+
+--- LCIRC_VIRTUALCOORD Algorithm ---
+Total received packets: 13009.666667
+Total received flits: 104051.000000
+Global average delay (cycles): 2283.750000
+Max delay (cycles): 5623.000000
+Network throughput (flits/cycle): 11.561217
+Average IP throughput (flits/cycle/IP): 00.183511
+Total energy (J): 00.000031
+Dynamic energy (J): 00.000002
+Static energy (J): 00.000029
+
+Results saved to: /mnt/c/Users/teddy/Downloads/LCirc_noxim/results/TRAFFIC_RANDOM/lcirc_results_PIR_0_04_virtualcoord.txt
+

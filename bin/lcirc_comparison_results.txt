@@ -1,0 +1,330 @@
+
+        SystemC 2.3.1-Accellera --- Jan 20 2026 17:56:51
+        Copyright (c) 1996-2014 by all Contributors,
+        ALL RIGHTS RESERVED
+	--------------------------------------------
+		Noxim - the NoC Simulator
+		(C) University of Catania
+	--------------------------------------------
+Catania V., Mineo A., Monteleone S., Palesi M., and Patti D. (2016) Cycle-Accurate Network on Chip Simulation with Noxim. ACM Trans. Model. Comput. Simul. 27, 1, Article 4 (August 2016), 25 pages. DOI: https://doi.org/10.1145/2953878
+
+
+Loading configuration from file "/mnt/c/Users/teddy/Downloads/LCirc_noxim/config_examples/default_configLCirc.yaml"... Done
+Loading power configurations from file "power.yaml"... Done
+[LCIRC] topology parameters: S=5 N=63 s1=1 s2=18 a=9 b=7
+Allocation completed
+Signals set
+Dummy set
+Reset for 1000 cycles...  done! 
+ Now running for 10000 cycles...
+Noxim simulation completed. (11000 cycles executed)
+
+% Total received packets: 5738
+% Total received flits: 45932
+% Received/Ideal flits Ratio: 1.01261
+% Average wireless utilization: 0
+% Global average delay (cycles): 17.3813
+% Max delay (cycles): 134
+% Network throughput (flits/cycle): 5.10356
+% Average IP throughput (flits/cycle/IP): 0.0810088
+% Total energy (J): 8.55825e-06
+% 	Dynamic energy (J): 7.80697e-07
+% 	Static energy (J): 7.77755e-06
+
+----------------------------------------
+End of LCIRC run
+----------------------------------------
+
+
+=========================================
+Running: LCIRC_DIJKSTRA
+Config: default_configLCirc_Dijkstra.yaml
+Time: Thu Jan 22 13:37:51 MSK 2026
+=========================================
+
+
+        SystemC 2.3.1-Accellera --- Jan 20 2026 17:56:51
+        Copyright (c) 1996-2014 by all Contributors,
+        ALL RIGHTS RESERVED
+	--------------------------------------------
+		Noxim - the NoC Simulator
+		(C) University of Catania
+	--------------------------------------------
+Catania V., Mineo A., Monteleone S., Palesi M., and Patti D. (2016) Cycle-Accurate Network on Chip Simulation with Noxim. ACM Trans. Model. Comput. Simul. 27, 1, Article 4 (August 2016), 25 pages. DOI: https://doi.org/10.1145/2953878
+
+
+Loading configuration from file "/mnt/c/Users/teddy/Downloads/LCirc_noxim/config_examples/default_configLCirc_Dijkstra.yaml"... Done
+Loading power configurations from file "power.yaml"... Done
+[LCIRC] topology parameters: S=5 N=63 s1=1 s2=18 a=9 b=7
+Allocation completed
+Signals set
+Dummy set
+Reset for 1000 cycles...  done! 
+ Now running for 10000 cycles...
+Noxim simulation completed. (11000 cycles executed)
+
+% Total received packets: 3317
+% Total received flits: 26584
+% Received/Ideal flits Ratio: 0.586067
+% Average wireless utilization: 0
+% Global average delay (cycles): 27.5571
+% Max delay (cycles): 444
+% Network throughput (flits/cycle): 2.95378
+% Average IP throughput (flits/cycle/IP): 0.0468854
+% Total energy (J): 8.31843e-06
+% 	Dynamic energy (J): 5.21979e-07
+% 	Static energy (J): 7.79645e-06
+
+----------------------------------------
+End of LCIRC_DIJKSTRA run
+----------------------------------------
+
+
+=========================================
+Running: LCIRC_SIMPLE
+Config: default_configLCirc_Simple.yaml
+Time: Thu Jan 22 13:37:53 MSK 2026
+=========================================
+
+
+        SystemC 2.3.1-Accellera --- Jan 20 2026 17:56:51
+        Copyright (c) 1996-2014 by all Contributors,
+        ALL RIGHTS RESERVED
+	--------------------------------------------
+		Noxim - the NoC Simulator
+		(C) University of Catania
+	--------------------------------------------
+Catania V., Mineo A., Monteleone S., Palesi M., and Patti D. (2016) Cycle-Accurate Network on Chip Simulation with Noxim. ACM Trans. Model. Comput. Simul. 27, 1, Article 4 (August 2016), 25 pages. DOI: https://doi.org/10.1145/2953878
+
+
+Loading configuration from file "/mnt/c/Users/teddy/Downloads/LCirc_noxim/config_examples/default_configLCirc_Simple.yaml"... Done
+Loading power configurations from file "power.yaml"... Done
+[LCIRC] topology parameters: S=5 N=63 s1=1 s2=18 a=9 b=7
+Allocation completed
+Signals set
+Dummy set
+Reset for 1000 cycles...  done! 
+ Now running for 10000 cycles...
+[LCIRC-SIMPLE] u=38 w=16 distance=22 diff_forward=41 diff_backward=22 going_forward=false s1=1 s2=18 first_step=20 dir=3(WEST)
+[LCIRC-SIMPLE] u=13 w=12 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=12 dir=0(NORTH)
+[LCIRC-SIMPLE] u=20 w=16 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=19 dir=0(NORTH)
+[LCIRC-SIMPLE] u=10 w=61 distance=12 diff_forward=51 diff_backward=12 going_forward=false s1=1 s2=18 first_step=9 dir=0(NORTH)
+[LCIRC-SIMPLE] u=19 w=16 distance=3 diff_forward=60 diff_backward=3 going_forward=false s1=1 s2=18 first_step=18 dir=0(NORTH)
+[LCIRC-SIMPLE] u=42 w=32 distance=10 diff_forward=53 diff_backward=10 going_forward=false s1=1 s2=18 first_step=41 dir=0(NORTH)
+[LCIRC-SIMPLE] u=9 w=61 distance=11 diff_forward=52 diff_backward=11 going_forward=false s1=1 s2=18 first_step=8 dir=0(NORTH)
+[LCIRC-SIMPLE] u=18 w=16 distance=2 diff_forward=61 diff_backward=2 going_forward=false s1=1 s2=18 first_step=17 dir=0(NORTH)
+[LCIRC-SIMPLE] u=41 w=32 distance=9 diff_forward=54 diff_backward=9 going_forward=false s1=1 s2=18 first_step=40 dir=0(NORTH)
+[LCIRC-SIMPLE] u=8 w=61 distance=10 diff_forward=53 diff_backward=10 going_forward=false s1=1 s2=18 first_step=7 dir=0(NORTH)
+[LCIRC-SIMPLE] u=20 w=61 distance=22 diff_forward=41 diff_backward=22 going_forward=false s1=1 s2=18 first_step=2 dir=3(WEST)
+[LCIRC-SIMPLE] u=30 w=33 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=31 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=31 w=53 distance=22 diff_forward=22 diff_backward=41 going_forward=true s1=1 s2=18 first_step=49 dir=1(EAST)
+[LCIRC-SIMPLE] u=62 w=50 distance=12 diff_forward=51 diff_backward=12 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=17 w=16 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=16 dir=0(NORTH)
+[LCIRC-SIMPLE] u=40 w=32 distance=8 diff_forward=55 diff_backward=8 going_forward=false s1=1 s2=18 first_step=39 dir=0(NORTH)
+[LCIRC-SIMPLE] u=2 w=61 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=1 dir=0(NORTH)
+[LCIRC-SIMPLE] u=7 w=61 distance=9 diff_forward=54 diff_backward=9 going_forward=false s1=1 s2=18 first_step=6 dir=0(NORTH)
+[LCIRC-SIMPLE] u=31 w=33 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=32 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=49 w=53 distance=4 diff_forward=4 diff_backward=59 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=61 w=50 distance=11 diff_forward=52 diff_backward=11 going_forward=false s1=1 s2=18 first_step=60 dir=0(NORTH)
+[LCIRC-SIMPLE] u=39 w=32 distance=7 diff_forward=56 diff_backward=7 going_forward=false s1=1 s2=18 first_step=38 dir=0(NORTH)
+[LCIRC-SIMPLE] u=54 w=52 distance=2 diff_forward=61 diff_backward=2 going_forward=false s1=1 s2=18 first_step=53 dir=0(NORTH)
+[LCIRC-SIMPLE] u=1 w=61 distance=3 diff_forward=60 diff_backward=3 going_forward=false s1=1 s2=18 first_step=0 dir=0(NORTH)
+[LCIRC-SIMPLE] u=6 w=61 distance=8 diff_forward=55 diff_backward=8 going_forward=false s1=1 s2=18 first_step=5 dir=0(NORTH)
+[LCIRC-SIMPLE] u=32 w=33 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=33 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=45 w=1 distance=19 diff_forward=19 diff_backward=44 going_forward=true s1=1 s2=18 first_step=0 dir=1(EAST)
+[LCIRC-SIMPLE] u=50 w=53 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=51 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=60 w=50 distance=10 diff_forward=53 diff_backward=10 going_forward=false s1=1 s2=18 first_step=59 dir=0(NORTH)
+[LCIRC-SIMPLE] u=38 w=32 distance=6 diff_forward=57 diff_backward=6 going_forward=false s1=1 s2=18 first_step=37 dir=0(NORTH)
+[LCIRC-SIMPLE] u=53 w=52 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=52 dir=0(NORTH)
+[LCIRC-SIMPLE] u=53 w=20 distance=30 diff_forward=30 diff_backward=33 going_forward=true s1=1 s2=18 first_step=8 dir=1(EAST)
+[LCIRC-SIMPLE] u=0 w=61 distance=2 diff_forward=61 diff_backward=2 going_forward=false s1=1 s2=18 first_step=62 dir=0(NORTH)
+[LCIRC-SIMPLE] u=0 w=1 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=1 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=5 w=61 distance=7 diff_forward=56 diff_backward=7 going_forward=false s1=1 s2=18 first_step=4 dir=0(NORTH)
+[LCIRC-SIMPLE] u=51 w=53 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=52 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=59 w=50 distance=9 diff_forward=54 diff_backward=9 going_forward=false s1=1 s2=18 first_step=58 dir=0(NORTH)
+[LCIRC-SIMPLE] u=8 w=20 distance=12 diff_forward=12 diff_backward=51 going_forward=true s1=1 s2=18 first_step=9 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=37 w=32 distance=5 diff_forward=58 diff_backward=5 going_forward=false s1=1 s2=18 first_step=36 dir=0(NORTH)
+[LCIRC-SIMPLE] u=41 w=10 distance=31 diff_forward=32 diff_backward=31 going_forward=false s1=1 s2=18 first_step=23 dir=3(WEST)
+[LCIRC-SIMPLE] u=4 w=61 distance=6 diff_forward=57 diff_backward=6 going_forward=false s1=1 s2=18 first_step=3 dir=0(NORTH)
+[LCIRC-SIMPLE] u=52 w=53 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=53 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=58 w=50 distance=8 diff_forward=55 diff_backward=8 going_forward=false s1=1 s2=18 first_step=57 dir=0(NORTH)
+[LCIRC-SIMPLE] u=61 w=18 distance=20 diff_forward=20 diff_backward=43 going_forward=true s1=1 s2=18 first_step=16 dir=1(EAST)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=9 w=20 distance=11 diff_forward=11 diff_backward=52 going_forward=true s1=1 s2=18 first_step=10 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=23 w=10 distance=13 diff_forward=50 diff_backward=13 going_forward=false s1=1 s2=18 first_step=22 dir=0(NORTH)
+[LCIRC-SIMPLE] u=36 w=32 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=35 dir=0(NORTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=3 w=61 distance=5 diff_forward=58 diff_backward=5 going_forward=false s1=1 s2=18 first_step=2 dir=0(NORTH)
+[LCIRC-SIMPLE] u=16 w=18 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=17 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=57 w=50 distance=7 diff_forward=56 diff_backward=7 going_forward=false s1=1 s2=18 first_step=56 dir=0(NORTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=10 w=20 distance=10 diff_forward=10 diff_backward=53 going_forward=true s1=1 s2=18 first_step=11 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=22 w=10 distance=12 diff_forward=51 diff_backward=12 going_forward=false s1=1 s2=18 first_step=21 dir=0(NORTH)
+[LCIRC-SIMPLE] u=35 w=32 distance=3 diff_forward=60 diff_backward=3 going_forward=false s1=1 s2=18 first_step=34 dir=0(NORTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=2 w=61 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=1 dir=0(NORTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=33 w=36 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=34 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=56 w=50 distance=6 diff_forward=57 diff_backward=6 going_forward=false s1=1 s2=18 first_step=55 dir=0(NORTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=2 w=61 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=1 dir=0(NORTH)
+[LCIRC-SIMPLE] u=11 w=20 distance=9 diff_forward=9 diff_backward=54 going_forward=true s1=1 s2=18 first_step=12 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=21 w=10 distance=11 diff_forward=52 diff_backward=11 going_forward=false s1=1 s2=18 first_step=20 dir=0(NORTH)
+[LCIRC-SIMPLE] u=34 w=32 distance=2 diff_forward=61 diff_backward=2 going_forward=false s1=1 s2=18 first_step=33 dir=0(NORTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=2 w=61 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=1 dir=0(NORTH)
+[LCIRC-SIMPLE] u=34 w=36 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=55 w=50 distance=5 diff_forward=58 diff_backward=5 going_forward=false s1=1 s2=18 first_step=54 dir=0(NORTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=2 w=61 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=1 dir=0(NORTH)
+[LCIRC-SIMPLE] u=12 w=20 distance=8 diff_forward=8 diff_backward=55 going_forward=true s1=1 s2=18 first_step=13 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=20 w=10 distance=10 diff_forward=53 diff_backward=10 going_forward=false s1=1 s2=18 first_step=19 dir=0(NORTH)
+[LCIRC-SIMPLE] u=33 w=32 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=32 dir=0(NORTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=2 w=61 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=1 dir=0(NORTH)
+[LCIRC-SIMPLE] u=35 w=36 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=36 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=37 w=50 distance=13 diff_forward=13 diff_backward=50 going_forward=true s1=1 s2=18 first_step=38 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=48 w=2 distance=17 diff_forward=17 diff_backward=46 going_forward=true s1=1 s2=18 first_step=49 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=54 w=50 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=53 dir=0(NORTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=62 w=18 distance=19 diff_forward=19 diff_backward=44 going_forward=true s1=1 s2=18 first_step=17 dir=1(EAST)
+[LCIRC-SIMPLE] u=2 w=61 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=1 dir=0(NORTH)
+[LCIRC-SIMPLE] u=13 w=20 distance=7 diff_forward=7 diff_backward=56 going_forward=true s1=1 s2=18 first_step=14 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=19 w=10 distance=9 diff_forward=54 diff_backward=9 going_forward=false s1=1 s2=18 first_step=18 dir=0(NORTH)
+[LCIRC-SIMPLE] u=54 w=50 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=53 dir=0(NORTH)
+[LCIRC-SIMPLE] u=2 w=61 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=1 dir=0(NORTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=38 w=50 distance=12 diff_forward=12 diff_backward=51 going_forward=true s1=1 s2=18 first_step=39 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=46 w=12 distance=29 diff_forward=29 diff_backward=34 going_forward=true s1=1 s2=18 first_step=1 dir=1(EAST)
+[LCIRC-SIMPLE] u=49 w=2 distance=16 diff_forward=16 diff_backward=47 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=54 w=50 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=53 dir=0(NORTH)
+[LCIRC-SIMPLE] u=14 w=20 distance=6 diff_forward=6 diff_backward=57 going_forward=true s1=1 s2=18 first_step=15 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=18 w=10 distance=8 diff_forward=55 diff_backward=8 going_forward=false s1=1 s2=18 first_step=17 dir=0(NORTH)
+[LCIRC-SIMPLE] u=54 w=50 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=53 dir=0(NORTH)
+[LCIRC-SIMPLE] u=1 w=12 distance=11 diff_forward=11 diff_backward=52 going_forward=true s1=1 s2=18 first_step=2 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=1 w=61 distance=3 diff_forward=60 diff_backward=3 going_forward=false s1=1 s2=18 first_step=0 dir=0(NORTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=39 w=50 distance=11 diff_forward=11 diff_backward=52 going_forward=true s1=1 s2=18 first_step=40 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=50 w=2 distance=15 diff_forward=15 diff_backward=48 going_forward=true s1=1 s2=18 first_step=51 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=15 w=20 distance=5 diff_forward=5 diff_backward=58 going_forward=true s1=1 s2=18 first_step=16 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=10 distance=7 diff_forward=56 diff_backward=7 going_forward=false s1=1 s2=18 first_step=16 dir=0(NORTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=53 w=50 distance=3 diff_forward=60 diff_backward=3 going_forward=false s1=1 s2=18 first_step=52 dir=0(NORTH)
+[LCIRC-SIMPLE] u=59 w=31 distance=28 diff_forward=35 diff_backward=28 going_forward=false s1=1 s2=18 first_step=41 dir=3(WEST)
+[LCIRC-SIMPLE] u=2 w=12 distance=10 diff_forward=10 diff_backward=53 going_forward=true s1=1 s2=18 first_step=3 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=34 w=37 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=40 w=50 distance=10 diff_forward=10 diff_backward=53 going_forward=true s1=1 s2=18 first_step=41 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=51 w=2 distance=14 diff_forward=14 diff_backward=49 going_forward=true s1=1 s2=18 first_step=52 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=52 w=18 distance=29 diff_forward=29 diff_backward=34 going_forward=true s1=1 s2=18 first_step=7 dir=1(EAST)
+[LCIRC-SIMPLE] u=16 w=20 distance=4 diff_forward=4 diff_backward=59 going_forward=true s1=1 s2=18 first_step=17 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=16 w=10 distance=6 diff_forward=57 diff_backward=6 going_forward=false s1=1 s2=18 first_step=15 dir=0(NORTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=31 w=51 distance=20 diff_forward=20 diff_backward=43 going_forward=true s1=1 s2=18 first_step=49 dir=1(EAST)
+[LCIRC-SIMPLE] u=34 w=37 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=41 w=31 distance=10 diff_forward=53 diff_backward=10 going_forward=false s1=1 s2=18 first_step=40 dir=0(NORTH)
+[LCIRC-SIMPLE] u=52 w=50 distance=2 diff_forward=61 diff_backward=2 going_forward=false s1=1 s2=18 first_step=51 dir=0(NORTH)
+[LCIRC-SIMPLE] u=0 w=61 distance=2 diff_forward=61 diff_backward=2 going_forward=false s1=1 s2=18 first_step=62 dir=0(NORTH)
+[LCIRC-SIMPLE] u=3 w=12 distance=9 diff_forward=9 diff_backward=54 going_forward=true s1=1 s2=18 first_step=4 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=7 w=18 distance=11 diff_forward=11 diff_backward=52 going_forward=true s1=1 s2=18 first_step=8 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=10 w=3 distance=7 diff_forward=56 diff_backward=7 going_forward=false s1=1 s2=18 first_step=9 dir=0(NORTH)
+[LCIRC-SIMPLE] u=16 w=20 distance=4 diff_forward=4 diff_backward=59 going_forward=true s1=1 s2=18 first_step=17 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=21 w=58 distance=26 diff_forward=37 diff_backward=26 going_forward=false s1=1 s2=18 first_step=3 dir=3(WEST)
+[LCIRC-SIMPLE] u=34 w=37 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=41 w=50 distance=9 diff_forward=9 diff_backward=54 going_forward=true s1=1 s2=18 first_step=42 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=52 w=2 distance=13 diff_forward=13 diff_backward=50 going_forward=true s1=1 s2=18 first_step=53 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=56 w=24 distance=31 diff_forward=31 diff_backward=32 going_forward=true s1=1 s2=18 first_step=11 dir=1(EAST)
+[LCIRC-SIMPLE] u=0 w=61 distance=2 diff_forward=61 diff_backward=2 going_forward=false s1=1 s2=18 first_step=62 dir=0(NORTH)
+[LCIRC-SIMPLE] u=15 w=10 distance=5 diff_forward=58 diff_backward=5 going_forward=false s1=1 s2=18 first_step=14 dir=0(NORTH)
+[LCIRC-SIMPLE] u=16 w=20 distance=4 diff_forward=4 diff_backward=59 going_forward=true s1=1 s2=18 first_step=17 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=34 w=37 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=40 w=31 distance=9 diff_forward=54 diff_backward=9 going_forward=false s1=1 s2=18 first_step=39 dir=0(NORTH)
+[LCIRC-SIMPLE] u=49 w=51 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=51 w=50 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=50 dir=0(NORTH)
+[LCIRC-SIMPLE] u=3 w=58 distance=8 diff_forward=55 diff_backward=8 going_forward=false s1=1 s2=18 first_step=2 dir=0(NORTH)
+[LCIRC-SIMPLE] u=4 w=12 distance=8 diff_forward=8 diff_backward=55 going_forward=true s1=1 s2=18 first_step=5 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=8 w=18 distance=10 diff_forward=10 diff_backward=53 going_forward=true s1=1 s2=18 first_step=9 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=9 w=3 distance=6 diff_forward=57 diff_backward=6 going_forward=false s1=1 s2=18 first_step=8 dir=0(NORTH)
+[LCIRC-SIMPLE] u=11 w=24 distance=13 diff_forward=13 diff_backward=50 going_forward=true s1=1 s2=18 first_step=12 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=16 w=20 distance=4 diff_forward=4 diff_backward=59 going_forward=true s1=1 s2=18 first_step=17 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=34 w=37 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=42 w=50 distance=8 diff_forward=8 diff_backward=55 going_forward=true s1=1 s2=18 first_step=43 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=49 w=51 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=53 w=2 distance=12 diff_forward=12 diff_backward=51 going_forward=true s1=1 s2=18 first_step=54 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=3 w=58 distance=8 diff_forward=55 diff_backward=8 going_forward=false s1=1 s2=18 first_step=2 dir=0(NORTH)
+[LCIRC-SIMPLE] u=11 w=24 distance=13 diff_forward=13 diff_backward=50 going_forward=true s1=1 s2=18 first_step=12 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=14 w=10 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=13 dir=0(NORTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=34 w=37 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=39 w=31 distance=8 diff_forward=55 diff_backward=8 going_forward=false s1=1 s2=18 first_step=38 dir=0(NORTH)
+[LCIRC-SIMPLE] u=49 w=51 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=5 w=12 distance=7 diff_forward=7 diff_backward=56 going_forward=true s1=1 s2=18 first_step=6 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=8 w=3 distance=5 diff_forward=58 diff_backward=5 going_forward=false s1=1 s2=18 first_step=7 dir=0(NORTH)
+[LCIRC-SIMPLE] u=9 w=18 distance=9 diff_forward=9 diff_backward=54 going_forward=true s1=1 s2=18 first_step=10 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=11 w=24 distance=13 diff_forward=13 diff_backward=50 going_forward=true s1=1 s2=18 first_step=12 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=20 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=18 distance=1 diff_forward=1 diff_backward=62 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=34 w=37 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=43 w=50 distance=7 diff_forward=7 diff_backward=56 going_forward=true s1=1 s2=18 first_step=44 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=49 w=51 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=54 w=2 distance=11 diff_forward=11 diff_backward=52 going_forward=true s1=1 s2=18 first_step=55 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=11 w=24 distance=13 diff_forward=13 diff_backward=50 going_forward=true s1=1 s2=18 first_step=12 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=13 w=10 distance=3 diff_forward=60 diff_backward=3 going_forward=false s1=1 s2=18 first_step=12 dir=0(NORTH)
+[LCIRC-SIMPLE] u=17 w=20 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=34 w=37 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=38 w=31 distance=7 diff_forward=56 diff_backward=7 going_forward=false s1=1 s2=18 first_step=37 dir=0(NORTH)
+[LCIRC-SIMPLE] u=49 w=51 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=6 w=12 distance=6 diff_forward=6 diff_backward=57 going_forward=true s1=1 s2=18 first_step=7 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=7 w=3 distance=4 diff_forward=59 diff_backward=4 going_forward=false s1=1 s2=18 first_step=6 dir=0(NORTH)
+[LCIRC-SIMPLE] u=10 w=18 distance=8 diff_forward=8 diff_backward=55 going_forward=true s1=1 s2=18 first_step=11 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=20 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=34 w=37 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=35 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=44 w=50 distance=6 diff_forward=6 diff_backward=57 going_forward=true s1=1 s2=18 first_step=45 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=49 w=51 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=55 w=2 distance=10 diff_forward=10 diff_backward=53 going_forward=true s1=1 s2=18 first_step=56 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=12 w=10 distance=2 diff_forward=61 diff_backward=2 going_forward=false s1=1 s2=18 first_step=11 dir=0(NORTH)
+[LCIRC-SIMPLE] u=12 w=24 distance=12 diff_forward=12 diff_backward=51 going_forward=true s1=1 s2=18 first_step=13 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=17 w=20 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=37 w=31 distance=6 diff_forward=57 diff_backward=6 going_forward=false s1=1 s2=18 first_step=36 dir=0(NORTH)
+[LCIRC-SIMPLE] u=49 w=51 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=6 w=3 distance=3 diff_forward=60 diff_backward=3 going_forward=false s1=1 s2=18 first_step=5 dir=0(NORTH)
+[LCIRC-SIMPLE] u=7 w=12 distance=5 diff_forward=5 diff_backward=58 going_forward=true s1=1 s2=18 first_step=8 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=11 w=18 distance=7 diff_forward=7 diff_backward=56 going_forward=true s1=1 s2=18 first_step=12 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=13 w=33 distance=20 diff_forward=20 diff_backward=43 going_forward=true s1=1 s2=18 first_step=31 dir=1(EAST)
+[LCIRC-SIMPLE] u=14 w=44 distance=30 diff_forward=30 diff_backward=33 going_forward=true s1=1 s2=18 first_step=32 dir=1(EAST)
+[LCIRC-SIMPLE] u=17 w=20 distance=3 diff_forward=3 diff_backward=60 going_forward=true s1=1 s2=18 first_step=18 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=35 w=37 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=36 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=45 w=50 distance=5 diff_forward=5 diff_backward=58 going_forward=true s1=1 s2=18 first_step=46 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=49 w=51 distance=2 diff_forward=2 diff_backward=61 going_forward=true s1=1 s2=18 first_step=50 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=56 w=2 distance=9 diff_forward=9 diff_backward=54 going_forward=true s1=1 s2=18 first_step=57 dir=2(SOUTH)
+[LCIRC-SIMPLE] u=62 w=61 distance=1 diff_forward=62 diff_backward=1 going_forward=false s1=1 s2=18 first_step=61 dir=0(NORTH)
+[LCIRC-SIMPLE] u=2 w=58 distance=7 diff_forward=56 diff_backward=7 going_forward=false s1=1 s2=18 first_step=1 dir=0(NORTH)
+[LCIRC-SIMPLE] u=7 w=12 distance=5 diff_forward=5 diff_backward=58 going_forward=true s1=1 s2=18 first_step=8 dir=2(SOUTH)
+Noxim simulation completed. (11000 cycles executed)
+
+% Total received packets: 15
+% Total received flits: 137
+% Received/Ideal flits Ratio: 0.00302028
+% Average wireless utilization: 0
+% Global average delay (cycles): 19.4667
+% Max delay (cycles): 36
+% Network throughput (flits/cycle): 0.0152222
+% Average IP throughput (flits/cycle/IP): 0.000241623
+% Total energy (J): 7.97036e-06
+% 	Dynamic energy (J): 1.95962e-07
+% 	Static energy (J): 7.7744e-06
+
+----------------------------------------
+End of LCIRC_SIMPLE run
+----------------------------------------
+
+
+=========================================
+All simulations completed!
+Results saved to: lcirc_comparison_results.txt
+=========================================

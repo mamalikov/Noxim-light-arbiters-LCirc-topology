@@ -1,0 +1,33 @@
+=========================================
+LCirculant Routing Algorithm: LCIRC_DIJKSTRA
+Traffic Pattern: TRAFFIC_BUTTERFLY
+PIR: 0.08
+Date: Sat Jan 24 16:44:51 MSK 2026
+=========================================
+
+Running LCIRC_DIJKSTRA with PIR=0.08 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+=========================================
+AVERAGED RESULTS (6 runs)
+=========================================
+
+--- LCIRC_DIJKSTRA Algorithm ---
+Total received packets: 22811.666667
+Total received flits: 182522.666667
+Global average delay (cycles): 1882.331667
+Max delay (cycles): 8848.833333
+Network throughput (flits/cycle): 20.280300
+Average IP throughput (flits/cycle/IP): 00.321909
+Total energy (J): 00.000031
+Dynamic energy (J): 00.000002
+Static energy (J): 00.000029
+
+Results saved to: /mnt/c/Users/teddy/Downloads/LCirc_noxim/results/TRAFFIC_BUTTERFLY/lcirc_results_PIR_0_08_dijkstra.txt
+

@@ -1,0 +1,33 @@
+=========================================
+LCirculant Routing Algorithm: LCIRC_DIJKSTRA
+Traffic Pattern: TRAFFIC_SHUFFLE
+PIR: 0.10
+Date: Sat Jan 24 16:33:20 MSK 2026
+=========================================
+
+Running LCIRC_DIJKSTRA with PIR=0.10 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+=========================================
+AVERAGED RESULTS (6 runs)
+=========================================
+
+--- LCIRC_DIJKSTRA Algorithm ---
+Total received packets: 16403.833333
+Total received flits: 131216.166667
+Global average delay (cycles): 3423.966667
+Max delay (cycles): 9230.833333
+Network throughput (flits/cycle): 14.579567
+Average IP throughput (flits/cycle/IP): 00.231422
+Total energy (J): 00.000031
+Dynamic energy (J): 00.000002
+Static energy (J): 00.000029
+
+Results saved to: /mnt/c/Users/teddy/Downloads/LCirc_noxim/results/TRAFFIC_SHUFFLE/lcirc_results_PIR_0_10_dijkstra.txt
+

@@ -1,0 +1,116 @@
+=========================================
+Mesh Arbitration Algorithms Comparison
+Topology: MESH (No HUB)
+Config: default_configMeshNoHUB_16x16.yaml
+Routing: default (from config)
+Traffic pattern: TRAFFIC_TRANSPOSE1 (param=transpose1)
+PIR: 0.02
+Mesh size: 16x16
+Date: Thu Jan 29 13:55:28 MSK 2026
+=========================================
+
+--- Random (RANDOM) ---
+Running Random with PIR=0.02 on Mesh 16x16 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+AVERAGED RESULTS for Random (RANDOM) (PIR=0.02, 6 runs):
+  Total received packets: 18584.666667
+  Total received flits: 148669.166667
+  Global average delay (cycles): 602.551333
+  Max delay (cycles): 9723.166667
+  Network throughput (flits/cycle): 16.518800
+  Average IP throughput (flits/cycle/IP): 00.064527
+  Total energy (J): 00.000035
+  Dynamic energy (J): 00.000004
+  Static energy (J): 00.000032
+
+--- Hopcount Max (HOPCOUNT_MAX) ---
+Running Hopcount Max with PIR=0.02 on Mesh 16x16 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+AVERAGED RESULTS for Hopcount Max (HOPCOUNT_MAX) (PIR=0.02, 6 runs):
+  Total received packets: 18527.833333
+  Total received flits: 148227.666667
+  Global average delay (cycles): 565.373167
+  Max delay (cycles): 9636.333333
+  Network throughput (flits/cycle): 16.469733
+  Average IP throughput (flits/cycle/IP): 00.064335
+  Total energy (J): 00.000035
+  Dynamic energy (J): 00.000004
+  Static energy (J): 00.000032
+
+--- Hopcount Min (HOPCOUNT_MIN) ---
+Running Hopcount Min with PIR=0.02 on Mesh 16x16 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+AVERAGED RESULTS for Hopcount Min (HOPCOUNT_MIN) (PIR=0.02, 6 runs):
+  Total received packets: 18534.833333
+  Total received flits: 148253.000000
+  Global average delay (cycles): 600.669500
+  Max delay (cycles): 9652.333333
+  Network throughput (flits/cycle): 16.472550
+  Average IP throughput (flits/cycle/IP): 00.064346
+  Total energy (J): 00.000035
+  Dynamic energy (J): 00.000004
+  Static energy (J): 00.000032
+
+--- Distance Min (DISTANCE_MIN) ---
+Running Distance Min with PIR=0.02 on Mesh 16x16 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+AVERAGED RESULTS for Distance Min (DISTANCE_MIN) (PIR=0.02, 6 runs):
+  Total received packets: 18532.500000
+  Total received flits: 148269.500000
+  Global average delay (cycles): 609.735333
+  Max delay (cycles): 9747.666667
+  Network throughput (flits/cycle): 16.474383
+  Average IP throughput (flits/cycle/IP): 00.064353
+  Total energy (J): 00.000035
+  Dynamic energy (J): 00.000004
+  Static energy (J): 00.000032
+
+--- Distance Max (DISTANCE_MAX) ---
+Running Distance Max with PIR=0.02 on Mesh 16x16 (6 successful runs)...
+  Attempt 1 (successful: 0/6)...
+  Attempt 2 (successful: 1/6)...
+  Attempt 3 (successful: 2/6)...
+  Attempt 4 (successful: 3/6)...
+  Attempt 5 (successful: 4/6)...
+  Attempt 6 (successful: 5/6)...
+    Completed: 6 successful runs in 6 attempts
+
+AVERAGED RESULTS for Distance Max (DISTANCE_MAX) (PIR=0.02, 6 runs):
+  Total received packets: 18525.333333
+  Total received flits: 148208.333333
+  Global average delay (cycles): 543.634667
+  Max delay (cycles): 9642.500000
+  Network throughput (flits/cycle): 16.467600
+  Average IP throughput (flits/cycle/IP): 00.064327
+  Total energy (J): 00.000035
+  Dynamic energy (J): 00.000004
+  Static energy (J): 00.000032
+
